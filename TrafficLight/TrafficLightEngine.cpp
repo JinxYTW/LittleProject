@@ -1,34 +1,44 @@
 #include "TrafficLightEngine.h"
 
-#include <iostream>
-#include <chrono>
-#include <thread>
-
 namespace TrafficLightEngine
 {
     TrafficLightEngine::TrafficLightEngine()
+        : m_state(TrafficLightState::RED), m_timeInCurrentState(0)
     {
-        m_state = TrafficLightState::RED;
     }
 
     void TrafficLightEngine::SetState(TrafficLightState state)
     {
         m_state = state;
+        m_timeInCurrentState = std::chrono::milliseconds(0);
     }
 
-
-    void TrafficLightEngine::UpdateState()
+    void TrafficLightEngine::UpdateState(std::chrono::milliseconds elapsedTime)
     {
+        m_timeInCurrentState += elapsedTime;
+
         switch (m_state)
         {
         case TrafficLightState::RED:
-            m_state = TrafficLightState::GREEN;
+            if (m_timeInCurrentState >= m_redDuration)
+            {
+                m_state = TrafficLightState::GREEN;
+                m_timeInCurrentState = std::chrono::milliseconds(0);
+            }
             break;
         case TrafficLightState::GREEN:
-            m_state = TrafficLightState::YELLOW;
+            if (m_timeInCurrentState >= m_greenDuration)
+            {
+                m_state = TrafficLightState::YELLOW;
+                m_timeInCurrentState = std::chrono::milliseconds(0);
+            }
             break;
         case TrafficLightState::YELLOW:
-            m_state = TrafficLightState::RED;
+            if (m_timeInCurrentState >= m_yellowDuration)
+            {
+                m_state = TrafficLightState::RED;
+                m_timeInCurrentState = std::chrono::milliseconds(0);
+            }
             break;
         default:
             break;

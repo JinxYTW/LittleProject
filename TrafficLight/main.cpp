@@ -1,5 +1,6 @@
 #include "Road.h"
-#include <windows.h> // Include Windows header for Sleep function
+#include <chrono>
+#include <thread>
 
 int main()
 {
@@ -12,9 +13,9 @@ int main()
 
     while (true)
     {
-        road.update(1.0);
+        road.update(std::chrono::milliseconds(1000));
         road.display();
-        Sleep(1000); // Use Sleep function from Windows API
+        std::this_thread::sleep_for(std::chrono::milliseconds(1000));
     }
 
     return 0;
