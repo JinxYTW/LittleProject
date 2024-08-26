@@ -1,0 +1,26 @@
+[
+{
+  "directory": "C:/Users/tyoha/OneDrive/Bureau/Reprise C/TrafficLight/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -g -std=gnu++17 -o CMakeFiles\\app.dir\\main.cpp.obj -c \"C:\\Users\\tyoha\\OneDrive\\Bureau\\Reprise C\\TrafficLight\\main.cpp\"",
+  "file": "C:\\Users\\tyoha\\OneDrive\\Bureau\\Reprise C\\TrafficLight\\main.cpp",
+  "output": "CMakeFiles\\app.dir\\main.cpp.obj"
+},
+{
+  "directory": "C:/Users/tyoha/OneDrive/Bureau/Reprise C/TrafficLight/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -g -std=gnu++17 -o CMakeFiles\\app.dir\\Road.cpp.obj -c \"C:\\Users\\tyoha\\OneDrive\\Bureau\\Reprise C\\TrafficLight\\Road.cpp\"",
+  "file": "C:\\Users\\tyoha\\OneDrive\\Bureau\\Reprise C\\TrafficLight\\Road.cpp",
+  "output": "CMakeFiles\\app.dir\\Road.cpp.obj"
+},
+{
+  "directory": "C:/Users/tyoha/OneDrive/Bureau/Reprise C/TrafficLight/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -g -std=gnu++17 -o CMakeFiles\\app.dir\\TrafficLightEngine.cpp.obj -c \"C:\\Users\\tyoha\\OneDrive\\Bureau\\Reprise C\\TrafficLight\\TrafficLightEngine.cpp\"",
+  "file": "C:\\Users\\tyoha\\OneDrive\\Bureau\\Reprise C\\TrafficLight\\TrafficLightEngine.cpp",
+  "output": "CMakeFiles\\app.dir\\TrafficLightEngine.cpp.obj"
+},
+{
+  "directory": "C:/Users/tyoha/OneDrive/Bureau/Reprise C/TrafficLight/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -g -std=gnu++17 -o CMakeFiles\\app.dir\\Vehicle.cpp.obj -c \"C:\\Users\\tyoha\\OneDrive\\Bureau\\Reprise C\\TrafficLight\\Vehicle.cpp\"",
+  "file": "C:\\Users\\tyoha\\OneDrive\\Bureau\\Reprise C\\TrafficLight\\Vehicle.cpp",
+  "output": "CMakeFiles\\app.dir\\Vehicle.cpp.obj"
+}
+]
