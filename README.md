@@ -1,59 +1,66 @@
+# LittleProject – C++ Revision Projects
 
-  
+## 📌 Overview
+This repository contains a series of **small but well-structured C++ projects** created as a personal exercise to **refresh my C++ skills** after a break.  
+Each project focuses on practicing **core C++ concepts, architecture, and code organization**.
 
-# LittleProject
+---
 
-  
+## 📝 Projects
 
-## Todo-List
+### 1. Todo-List
+A simple task management application in the console.  
+**Purpose:** Practice file I/O, data structures, and task management logic.  
 
-Ajout à réaliser :
+**Planned Enhancements:**  
+- Save tasks in an external folder  
 
-- Sauvegarde des tâches dans un dossier externe
+---
 
-  
-  
-  
-  
+### 2. Simple Calculator
+A basic calculator supporting standard arithmetic operations.  
+**Purpose:** Practice functions, user input, and error handling.  
 
-## Simple Calculator
+**Planned Enhancements:**  
+- Add scientific functions  
+- Maintain a calculation history  
 
-Ajout à réaliser :
+---
 
-- Fonction scientifique
+### 3. Text Analyzer
+Analyzes text files to extract statistics such as word count, character count, and line count.  
+**Purpose:** Practice file parsing, loops, and string manipulation.  
 
-- Historique de calcul
+**Corrections to Implement:**  
+- Correct counting logic  
+- Handle line breaks properly  
+- Reset counters between files  
 
-  
+---
 
-## Text Analyzer
+### 4. Password Generator
+Generates random passwords with options for length and complexity.  
+**Purpose:** Practice random number generation, strings, and user options.  
 
-Correction à réaliser :
+**Planned Enhancements:**  
+- Save generated passwords to a text file  
+- Add a passphrase option  
 
-- Comptage
+---
 
-- Prise en compte des sauts de ligne
+### 5. Traffic Light Simulator
+Simulates traffic lights and vehicle movements in a simple console-based environment.  
+**Purpose:** Practice loops, state machines, and basic simulation logic.  
 
-- Remise à zéro des compteurs entre chaque fichier
+**Corrections to Implement:**  
+- Fix infinite road loop  
+- Remove unnecessary deceleration  
 
-## PasswordGenerator
+**Planned Enhancements:**  
+- Create a graphical interface using SDL2 and Makefile2  
+- Add collision detection?  
 
-Ajout à réaliser :
+---
 
-- Sauvegarde du mot de passe dans txt
-- Créer option PassPhrase
-
-## Traffic Light Simulator
-
-Correction à réaliser :
-
-- Problème de route infini
-- Décélération inutile 
-
-
-Ajout à réaliser :
-
-- Interface graphique en utilisant SDL2 et Makefile2
-- Collision ?
-
-
+## 👤 Author
+Turpin Yohann – Personal C++ revision projects
